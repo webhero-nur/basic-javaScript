@@ -1,0 +1,10 @@
+var number1 = 10;
+var number2 = 5;
+number1 += 2;                   //number1 = number1 + 2; number1 = 10 + 2; number1 = 12;
+number2 -= number1;             // number2 = number2 - number1; number2 = 5 - 12; number2 = -7;
+number1++;                      // number1 = number1 + 1; number1 = 12 + 1; number1 = 13;
+number2--;                      // number2 = number2 - 1; number2 = -7 - 1; number2 = -8;
+number1 *= number2;             // number1 = number1 * number2; number1 = 13 * -8; number1 = -104;
+console.log(number2 /= 16);     // number2 = number2 / 16; number2 = -8 / 16; number2 = -0.5;
+console.log(number1 %= 5);      // number1 = number1 % 5; number1 = -104 % 5; number1 = -4;
+console.log(typeof (number1) + '\n' + typeof (number2));
